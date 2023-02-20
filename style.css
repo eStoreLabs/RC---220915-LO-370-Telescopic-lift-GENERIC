@@ -802,6 +802,11 @@ body {
   font-size: 12px;
   text-align: center;
 }
+@media screen and (min-width: 360px) {
+  #es-loreal.es-loreal .es-kv__title-1, #es-loreal.es-loreal .es-kv__title-2 {
+    width: 110px;
+  }
+}
 @media screen and (min-width: 530px) {
   #es-loreal.es-loreal .es-kv__brand {
     margin-left: 30px;

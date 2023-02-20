@@ -725,6 +725,16 @@ body {
       text-align: center;
     }
   }
+
+  @media screen and (min-width: 360px) {
+    .es-kv {
+      &__title-1,
+      &__title-2 {
+        width: 110px;
+      }
+    }
+  }
+
   @media screen and (min-width: 530px) {
     .es-kv {
       &__brand {
